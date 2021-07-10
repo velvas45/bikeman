@@ -1,0 +1,81 @@
+.container{
+    margin: auto;
+    padding: 6rem 12rem;
+    background: #9B72AA;
+    min-height: 100vh;
+}
+
+.cardStyle{
+    /* margin: auto; */
+    /* max-width: 700px; */
+    /* overflow: auto; */
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    border-radius: 30px;
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(250, 251, 255, 0.37);
+    backdrop-filter: blur( 13.0px );
+    -webkit-backdrop-filter: blur( 13.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.cardStyle h2 {
+    color: #3C5186;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cardStyle p {
+    font-size: 14px;
+    color: #111;
+    font-weight: lighter;
+}
+
+.cardStyle button{
+    background-color: #3C5186;
+    border-radius: 14px;
+    padding: 20px;
+    line-height: 0;
+}
+
+.cardStyle input, .cardStyle span {
+    border-radius: 12px;
+}
+
+.socmed button{
+    line-height: 0;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.socmed .twitter{
+    background-color: #1DA1F2;
+}
+
+.socmed .google{
+    background-color: #FFF;
+}
+
+.boxImg{
+    width: 100%;
+    height: 100%;
+}
+
+.cardStyle .notRegister {
+    font-size: 0.8rem;
+    color: #9B72AA;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+    .container{
+       padding: 0;
+    }
+    .cardStyle{
+        /* margin: auto; */
+        /* max-width: 700px; */
+        /* overflow-x: scroll; */
+        max-width: 400px;
+    }
+}

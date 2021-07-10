@@ -1,0 +1,20 @@
+.dropdownBtn{
+    background: transparent;
+    border: none;
+    color: #999;
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdownBtn:hover{
+    background: none;
+    color: #111;
+}
+
+.dropdownBtn:focus, .dropdownBtn:visited, .dropdownBtn:focus-within, .dropdownBtn.dropdownBtn:focus-within, .dropdownBtn:active {
+    color: #111 !important;
+    background: none !important;
+    outline: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
